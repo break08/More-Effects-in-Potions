@@ -1,0 +1,340 @@
+{
+  "mod_elements": [
+    {
+      "name": "LevitationPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MiningFatiguePotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_fatigue_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WitherPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LevitationRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/LevitationRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "MiningFatigueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_fatigue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/MiningFatigueRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "WitherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/WitherRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "LuckRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luck_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/LuckRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "HastePotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HasteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/HasteRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Resistant",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistant",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ResistanceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistance_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/ResistanceRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BlindnessPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BlindnessRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/BlindnessRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "HealthBoostPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_boost_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HealthBoostRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_boost_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/HealthBoostRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "HeroOfTheVillagePotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_of_the_village_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HeroOfTheVillageRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hero_of_the_village_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/HeroOfTheVillageRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "ConduitPowerPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conduit_power_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ConduitPowerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conduit_power_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/ConduitPowerRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "DolphinGracePotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphin_grace_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DolphinsGraceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphins_grace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/DolphinsGraceRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "BadLuckPotion",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_luck_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BadLuckRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_luck_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moreeffectsinpotions/recipe/brewing/BadLuckRecipeBrewingRecipe.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.levitation_potion": "Splash Potion of Levitation",
+      "item.minecraft.potion.effect.levitation_potion": "Potion of Levitation",
+      "item.minecraft.tipped_arrow.effect.levitation_potion": "Arrow of Levitation",
+      "item.minecraft.lingering_potion.effect.levitation_potion": "Lingering Potion of Levitation",
+      "item.minecraft.lingering_potion.effect.mining_fatigue_potion": "Lingering Potion of Mining Fatigue",
+      "item.minecraft.potion.effect.mining_fatigue_potion": "Potion of Mining Fatigue",
+      "item.minecraft.tipped_arrow.effect.mining_fatigue_potion": "Arrow of Mining Fatigue",
+      "item.minecraft.splash_potion.effect.mining_fatigue_potion": "Splash Potion of Mining Fatigue",
+      "item.minecraft.potion.effect.wither_potion": "Potion of Wither",
+      "item.minecraft.tipped_arrow.effect.wither_potion": "Arrow of Wither",
+      "item.minecraft.lingering_potion.effect.wither_potion": "Lingering Potion of Wither",
+      "item.minecraft.splash_potion.effect.wither_potion": "Splash Potion of Wither",
+      "item.minecraft.lingering_potion.effect.haste_potion": "Lingering Potion of Haste",
+      "item.minecraft.splash_potion.effect.haste_potion": "Splash Potion of Haste",
+      "item.minecraft.potion.effect.haste_potion": "Potion of Haste",
+      "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
+      "item.minecraft.splash_potion.effect.resistant": "Splash Potion of Resistance",
+      "item.minecraft.potion.effect.resistant": "Potion of Resistance",
+      "item.minecraft.tipped_arrow.effect.resistant": "Arrow of Resistance",
+      "item.minecraft.lingering_potion.effect.resistant": "Lingering Potion of Resistance",
+      "item.minecraft.splash_potion.effect.blindness_potion": "Splash Potion of Blindness",
+      "item.minecraft.potion.effect.blindness_potion": "Potion of Blindness",
+      "item.minecraft.lingering_potion.effect.blindness_potion": "Lingering Potion of Blindness",
+      "item.minecraft.tipped_arrow.effect.blindness_potion": "Arrow of Blindness",
+      "item.minecraft.lingering_potion.effect.health_boost_potion": "Lingering Potion of Health Boost",
+      "item.minecraft.potion.effect.health_boost_potion": "Potion of Health Boost",
+      "item.minecraft.splash_potion.effect.health_boost_potion": "Splash Potion of Health Boost ",
+      "item.minecraft.tipped_arrow.effect.health_boost_potion": "Arrow of Health Boost",
+      "item.minecraft.tipped_arrow.effect.hero_of_the_village_potion": "Arrow of Hero Of The Village",
+      "item.minecraft.splash_potion.effect.hero_of_the_village_potion": "Splash Potion of Hero Of The Village",
+      "item.minecraft.potion.effect.hero_of_the_village_potion": "Potion of Hero Of The Village",
+      "item.minecraft.lingering_potion.effect.hero_of_the_village_potion": "Lingering Potion of Hero Of The Village",
+      "item.minecraft.lingering_potion.effect.conduit_power_potion": "Lingering Potion of Conduit Power",
+      "item.minecraft.potion.effect.conduit_power_potion": "Potion of Conduit Power",
+      "item.minecraft.tipped_arrow.effect.conduit_power_potion": "Arrow of Conduit Power",
+      "item.minecraft.splash_potion.effect.conduit_power_potion": "Splash Potion of Conduit Power",
+      "item.minecraft.lingering_potion.effect.dolphin_grace_potion": "Lingering Potion of Dolphin\u0027s Grace",
+      "item.minecraft.tipped_arrow.effect.dolphin_grace_potion": "Arrow of Dolphin\u0027s Grace",
+      "item.minecraft.potion.effect.dolphin_grace_potion": "Potion of Dolphin\u0027s Grace",
+      "item.minecraft.splash_potion.effect.dolphin_grace_potion": "Splash Potion of Dolphin\u0027s Grace",
+      "item.minecraft.potion.effect.bad_luck_potion": "Potion of Bad Luck",
+      "item.minecraft.splash_potion.effect.bad_luck_potion": "Splash Potion of Bad Luck",
+      "item.minecraft.lingering_potion.effect.bad_luck_potion": "Lingering Potion of Bad Luck",
+      "item.minecraft.tipped_arrow.effect.bad_luck_potion": "Arrow of Bad Luck"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/moreeffectsinpotions/init/MoreEffectsInPotionsModPotions.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/moreeffectsinpotions/MoreEffectsInPotionsMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "more_effects_in_potions",
+    "modName": "More Effects in Potions",
+    "version": "1.0.0",
+    "description": "Add more potions with vanilla effects that can\u0027t be crafted",
+    "author": "break08",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.moreeffectsinpotions"
+  },
+  "mcreatorVersion": 202600113616
+}
