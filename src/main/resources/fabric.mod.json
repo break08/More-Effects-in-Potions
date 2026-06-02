@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "more_effects_in_potions",
+	"version": "${version}",
+	"name": "More Effects in Potions",
+	"description": "Add more potions with vanilla effects that can't be crafted",
+	"authors": [
+		"break08"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/more-effects-in-potions/",
+		"sources": "https://github.com/break08/More-Effects-in-Potions"
+	},
+	"license": "MIT",
+	"icon": "assets/more_effects_in_potions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.effect.MoreEffectsInPotions",
+			"com.effect.item.MEIPPotion"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
