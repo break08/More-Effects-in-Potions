@@ -23,7 +23,7 @@ public class MEIPPotion implements ModInitializer {
                             new MobEffectInstance(
                                     MobEffects.LEVITATION,
                                     200
-                                    )
+                            )
                     )
             );
 
@@ -150,7 +150,7 @@ public class MEIPPotion implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+        FabricPotionBrewingBuilder.BUILD.register(builder -> {
             builder.addMix(
                     // Input potion.
                     Potions.AWKWARD,
