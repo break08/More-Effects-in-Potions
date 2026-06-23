@@ -3,7 +3,7 @@ package com.effect.item;
 import com.effect.MoreEffectsInPotions;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
+import net.fabricmc.fabric.api.registry.FabricPotionBrewingBuilder;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
