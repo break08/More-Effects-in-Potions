@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Conduit Power",
@@ -8,10 +8,8 @@
     "arrowName": "Arrow of Conduit Power",
     "effects": [
       {
-        "effect": {
-          "value": "CONDUIT_POWER"
-        },
-        "duration": 3600,
+        "effect": "CONDUIT_POWER",
+        "duration": 1800,
         "infinite": false,
         "amplifier": 0,
         "ambient": false,

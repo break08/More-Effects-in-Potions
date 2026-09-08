@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Brewing",
@@ -11,15 +11,9 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "brewingInputStack": {
-      "value": "POTION:LUCK"
-    },
-    "brewingIngredientStack": {
-      "value": "Items.FERMENTED_SPIDER_EYE"
-    },
-    "brewingReturnStack": {
-      "value": "POTION:CUSTOM:BadLuckPotion"
-    },
+    "brewingInputStack": "POTION:LUCK",
+    "brewingIngredientStack": "Items.FERMENTED_SPIDER_EYE",
+    "brewingReturnStack": "POTION:CUSTOM:BadLuckPotion",
     "name": "bad_luck_recipe",
     "namespace": "mod"
   }

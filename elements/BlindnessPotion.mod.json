@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Blindness",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Blindness",
     "effects": [
       {
-        "effect": {
-          "value": "BLINDNESS"
-        },
+        "effect": "BLINDNESS",
         "duration": 400,
         "infinite": false,
         "amplifier": 0,

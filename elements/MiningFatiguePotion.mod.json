@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Mining Fatigue",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Mining Fatigue",
     "effects": [
       {
-        "effect": {
-          "value": "MINING_FATIGUE"
-        },
+        "effect": "MINING_FATIGUE",
         "duration": 3600,
         "infinite": false,
         "amplifier": 0,

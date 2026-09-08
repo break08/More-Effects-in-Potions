@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Resistance",
@@ -8,10 +8,8 @@
     "arrowName": "Arrow of Resistance",
     "effects": [
       {
-        "effect": {
-          "value": "RESISTANCE"
-        },
-        "duration": 3600,
+        "effect": "RESISTANCE",
+        "duration": 1200,
         "infinite": false,
         "amplifier": 0,
         "ambient": false,

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Levitation",
@@ -8,9 +8,7 @@
     "arrowName": "Arrow of Levitation",
     "effects": [
       {
-        "effect": {
-          "value": "LEVITATION"
-        },
+        "effect": "LEVITATION",
         "duration": 200,
         "infinite": false,
         "amplifier": 0,

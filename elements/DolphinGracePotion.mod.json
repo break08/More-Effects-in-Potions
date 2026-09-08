@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "potion",
   "definition": {
     "potionName": "Potion of Dolphin's Grace",
@@ -8,10 +8,8 @@
     "arrowName": "Arrow of Dolphin's Grace",
     "effects": [
       {
-        "effect": {
-          "value": "DOLPHINS_GRACE"
-        },
-        "duration": 2400,
+        "effect": "DOLPHINS_GRACE",
+        "duration": 1600,
         "infinite": false,
         "amplifier": 0,
         "ambient": false,

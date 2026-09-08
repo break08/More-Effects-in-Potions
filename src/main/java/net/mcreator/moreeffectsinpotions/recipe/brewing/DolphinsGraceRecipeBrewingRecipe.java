@@ -5,7 +5,6 @@ import net.neoforged.neoforge.common.brewing.IBrewingRecipe;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.item.alchemy.PotionContents;
@@ -36,7 +35,7 @@ public class DolphinsGraceRecipeBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return Ingredient.of(new ItemStack(Blocks.SUGAR_CANE)).test(ingredient);
+		return Ingredient.of(new ItemStack(Items.NAUTILUS_SHELL)).test(ingredient);
 	}
 
 	@Override
