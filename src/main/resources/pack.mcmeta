@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 48,
-    "description": "Add more potions with vanilla effects that can't be crafted"
+    "pack_format": 15,
+    "description": "more_effects_in_potions resources"
   }
 }

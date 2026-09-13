@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "more_effects_in_potions",
+  "version": "1.0.0",
+  "name": "More Effects in Potions",
+  "description": "Add more potions with vanilla effects that can't be crafted",
+  "authors": [
+    "break08"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "accessWidener": "more_effects_in_potions.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.moreeffectsinpotions.MoreEffectsInPotionsMod"
+    ],
+    "client": [
+      "net.mcreator.moreeffectsinpotions.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
