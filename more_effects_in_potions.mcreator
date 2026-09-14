@@ -1,5 +1,50 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "LevitationPotion",
+      "type": "potion",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitation_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MiningFatiguePotion",
+      "type": "potion",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mining_fatigue_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WitherPotion",
+      "type": "potion",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HastePotion",
+      "type": "potion",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_potion",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
