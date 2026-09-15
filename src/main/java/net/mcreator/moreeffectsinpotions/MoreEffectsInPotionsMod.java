@@ -16,6 +16,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.moreeffectsinpotions.init.MoreEffectsInPotionsModPotions;
+import net.mcreator.moreeffectsinpotions.init.MoreEffectsInPotionsModBrewingRecipes;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -28,6 +29,8 @@ public class MoreEffectsInPotionsMod implements ModInitializer {
 		LOGGER.info("Initializing MoreEffectsInPotionsMod");
 
 		MoreEffectsInPotionsModPotions.load();
+
+		MoreEffectsInPotionsModBrewingRecipes.load();
 
 	}
 }
