@@ -7,7 +7,7 @@ import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.minecraft.core.Holder;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.Items;
@@ -18,7 +18,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> LEVITATION_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "levitation_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "levitation_potion"),
                     new Potion("levitation_potion",
                             new MobEffectInstance(
                                     MobEffects.LEVITATION,
@@ -30,10 +30,10 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> MINING_FATIGUE_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "mining_fatigue_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "mining_fatigue_potion"),
                     new Potion("mining_fatigue_potion",
                             new MobEffectInstance(
-                                    MobEffects.MINING_FATIGUE,
+                                    MobEffects.DIG_SLOWDOWN,
                                     3600
                             )
                     )
@@ -42,7 +42,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> WITHER_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "wither_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "wither_potion"),
                     new Potion("wither_potion",
                             new MobEffectInstance(
                                     MobEffects.WITHER,
@@ -54,10 +54,10 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> HASTE_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "haste_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "haste_potion"),
                     new Potion("haste_potion",
                             new MobEffectInstance(
-                                    MobEffects.HASTE,
+                                    MobEffects.DIG_SPEED,
                                     3600
                             )
                     )
@@ -66,10 +66,10 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> RESISTANCE_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "resistance_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "resistance_potion"),
                     new Potion("resistance_potion",
                             new MobEffectInstance(
-                                    MobEffects.RESISTANCE,
+                                    MobEffects.DAMAGE_RESISTANCE,
                                     1200
                             )
                     )
@@ -78,7 +78,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> BLINDNESS_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "blindness_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "blindness_potion"),
                     new Potion("blindness_potion",
                             new MobEffectInstance(
                                     MobEffects.BLINDNESS,
@@ -90,7 +90,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> HEALTH_BOOST_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "health_boost_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "health_boost_potion"),
                     new Potion("health_boost_potion",
                             new MobEffectInstance(
                                     MobEffects.HEALTH_BOOST,
@@ -102,7 +102,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> HERO_OF_THE_VILLAGE_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "hero_of_the_village_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "hero_of_the_village_potion"),
                     new Potion("hero_of_the_village_potion",
                             new MobEffectInstance(
                                     MobEffects.HERO_OF_THE_VILLAGE,
@@ -114,7 +114,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> CONDUIT_POWER_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "conduit_power_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "conduit_power_potion"),
                     new Potion("conduit_power_potion",
                             new MobEffectInstance(
                                     MobEffects.CONDUIT_POWER,
@@ -126,7 +126,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> DOLPHINS_GRACE_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "dolphin_grace_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "dolphin_grace_potion"),
                     new Potion("dolphin_grace_potion",
                             new MobEffectInstance(
                                     MobEffects.DOLPHINS_GRACE,
@@ -138,7 +138,7 @@ public class MEIPPotion implements ModInitializer {
     public static final Holder<Potion> BAD_LUCK_POTION =
             Registry.registerForHolder(
                     BuiltInRegistries.POTION,
-                    Identifier.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "bad_luck_potion"),
+                    ResourceLocation.fromNamespaceAndPath(MoreEffectsInPotions.MOD_ID, "bad_luck_potion"),
                     new Potion("bad_luck_potion",
                             new MobEffectInstance(
                                     MobEffects.UNLUCK,
